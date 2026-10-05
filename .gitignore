@@ -1,0 +1,29 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Local editor / tooling
+.vscode/
+.ipynb_checkpoints/
+
+# Streamlit / local app temp data
+.streamlit/
+working/
+*.log
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Optional: ignore local uploads or temporary extracted files if you create them during dev
+uploads/
+temp/
+
+# Keep the real project data tracked
+# sample data/  -> intentionally not ignored
